@@ -108,7 +108,9 @@ pip install -r requirements.txt
 Create a `.env` file:
 
 ```env
-GOOGLE_API_KEY=your_google_api_key
+OPENAI_API_KEY=your_openrouter_api_key
+OPENAI_BASE_URL=https://openrouter.ai/api/v1
+MODEL_NAME=openai/gpt-4o-mini
 ```
 
 ---
